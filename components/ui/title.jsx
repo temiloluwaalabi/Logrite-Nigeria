@@ -23,7 +23,7 @@ const Title = ({
                     }
                 </h5>
                 <div className={`flex flex-col gap-1 ${divClass}`}>
-                  <h2 className='lg:text-[40px] text-[30px] text-center leading-[44px] font-bold'>{title}</h2>  
+                  <h2 className='lg:text-[40px] text-[28px] text-center leading-[38px] font-bold'>{title}</h2>  
                   {desc &&                 
                   <p className='test-sm text-center max-w-[650px]'>{desc}</p>
                   }

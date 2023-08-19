@@ -15,7 +15,7 @@ const NewService = () => {
                 // label="Start a Project"
                 // href="enquiry"        
                 // classname="bg-dark-blue text-dark-blue"
-                divClass="items-center max-w-[85%]"
+                divClass="items-center lg:max-w-[85%] max-w-[100%]"
             />
         </div>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5'>
