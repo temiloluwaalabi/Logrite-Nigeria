@@ -10,7 +10,7 @@ const Services = () => {
         <h5 className="text-small flex gap-3 text-dark-blue-100 bg-[#eaeaea] px-4 py-2 rounded-3xl w-fit">
           Our Charter Services
         </h5>
-        <h2 className="text-[46px] text-center font-bold leading-[60px] text-dark-blue">
+        <h2 className="lg:text-[45px] text-[30px] font-bold lg:leading-[55px] leading-[38px] text-dark-blue">
           We Provide&nbsp;
           <span className="inline-flex relative">
             <span className="z-40">Best Services</span>

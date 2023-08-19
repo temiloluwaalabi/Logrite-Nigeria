@@ -2,7 +2,7 @@
 import {usePathname} from "next/navigation"
 import { routes as menuRoute } from "@/utils/constants"
 import Link from "next/link"
-const MainNav = () => {
+const MainNav = ({onClose}) => {
   const pathname = usePathname()
   const routes = menuRoute.map((route) => (
         {
@@ -11,6 +11,7 @@ const MainNav = () => {
           active: pathname === route.href
         }
     ))
+  
   return (
     <>
         {routes.map((route) => (
@@ -18,6 +19,7 @@ const MainNav = () => {
             href={route.href}
             key={route.href}
             className={`text-md font-medium transition-colors cursor-pointer hover:text-dark-blue ${route.active ? "text-dark-blue" : "text-neutral-500"}`}
+            onClick={onClose}
           >
             {route.label}
           </Link>

@@ -18,7 +18,7 @@ const MobileMenu = ({open, onClose}) => {
                         </span>
                     </div>
                     <div className='p-4 flex flex-col gap-8'>
-                        <MainNav />
+                        <MainNav onClose={onClose} />
                     </div>
                 </Dialog.Panel>
             </div>

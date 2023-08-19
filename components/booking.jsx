@@ -92,7 +92,7 @@ const Booking = () => {
                         )}
                     />
                 </div>
-                <div className='lg:col-span-4 md:col-span-6'>
+                <div className='lg:col-span-4 md:col-span-6 '>
                     <Controller 
                         name="to"
                         control={control}
@@ -143,7 +143,7 @@ const Booking = () => {
                         )}
                     />
                 </div>
-                <div className='lg:col-span-4 md:col-span-6'>
+                <div className='lg:col-span-4 md:col-span-6 col-span-12'>
                     <Controller 
                         name="date"
                         control={control}

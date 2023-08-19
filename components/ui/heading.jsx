@@ -17,7 +17,7 @@ const Heading = ({
     <div className="flex flex-col gap-5">
       <div className="flex flex-col gap-3">
         <h6 className="text-small text-primary-green">{subtitle}</h6>
-        <h2 className="lg:text-[45px] text-[30px] font-bold lg:leading-[55px] leading-[44px]">
+        <h2 className="lg:text-[45px] text-[28px] font-bold lg:leading-[55px] leading-[38px]">
           {beforeText}&nbsp;
           <span className="inline-flex relative">
             <span className="z-40">{text}</span>&nbsp;
